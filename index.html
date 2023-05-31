@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>11-GA 3 GROUP 3</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+        <div id="logo"><h1>Website<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">by</a>Group3</h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Group Members</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpeg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpeg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/3.jpeg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/4.jpeg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/5.jpeg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Welcome to Our First Website</h1>
+        <p>We are proud to introduce our very first website, which we have designed and developed with great enthusiasm and dedication.</p>
+        <p>The template uses a lavalamp menu (based on jQuery) from <a href="http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers/">here</a>. All of the images were shot by Mr.Viscaya shout out for him. - use as you wish.</p>
+        <h2>We Are The Group 3</h2>
+        <p>Proudly to Present to you:</p>
+        <ul>
+          <li>Best Website</li>
+          <li>Fast Page Loading</li>
+          <li>Less Error</li>
+          <li>High Resolution Pictures</li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="portfolio.html">Group Members</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></p>
+      <p>&copy; 2023 11-GA 3 GROUP 3. All Rights Reserved. | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Design by our group</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

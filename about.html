@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>11-GA 3 GROUP 3</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+        <div id="logo"><h1>Website<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">by</a>Group3</h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Group Members</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpeg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpeg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/3.jpeg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/4.jpeg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/5.jpeg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>About</h1>
+        <p>This website is the product of our hard work and dedication. Our group has worked tirelessly to bring this website to life, and we are proud to present it to you. We have used several programming languages to develop this website, including HTML, CSS, and JavaScript. These languages have allowed us to create a dynamic and engaging website that is both visually appealing and functional. With HTML, we were able to structure the content of our website, while CSS allowed us to style and design it. JavaScript, on the other hand, enabled us to add interactivity and functionality to our website. We believe that these programming languages have allowed us to create a website that truly reflects our vision and goals, and we hope that you enjoy using it as much as we enjoyed creating it.</p>
+        <p>Please dont be inlove with someone else.</p>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="portfolio.html">Group Members</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></p>
+      <p>&copy; 2023 11-GA 3 GROUP 3. All Rights Reserved. | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Design by our group</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
